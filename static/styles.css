@@ -1,0 +1,35 @@
+*{
+  margin: 0px auto;
+  padding: 0;
+}
+body{
+  text-align: center;
+}
+h1{
+  margin: 20px auto 10px auto;
+}
+form{
+  margin: 20px auto;
+}
+#guess{
+  height: 20px;
+  text-align: center;
+}
+button{
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+#wrong, #right{
+  width: 600px;
+  margin: 20px auto;
+}
+#wrong{
+  padding: 50px;
+  background-color: red;
+}
+#right{
+  padding: 50px 50px 10px 50px;
+  background-color: green;
+}
